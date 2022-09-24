@@ -1,0 +1,250 @@
+body {
+  font-family: 'kalpurush';
+}
+a {
+  color: #127FBE;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.bg-grey-200 {
+  background-color: rgb(237, 237, 237);
+}
+
+.bg-primary-color {
+  background-color: #127FBE;
+}
+
+.font-primary-color {
+  color: #127FBE;
+}
+
+.border-primary-color {
+  border: 1px solid #127fbe;
+}
+
+.h-40p {
+  height: 40%;
+}
+
+.h-60p {
+  height: 60%;
+}
+
+.w-40p {
+  width: 40%;
+}
+
+.w-60p {
+  width: 60%;
+}
+
+.h-100p {
+  height: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+@font-face {
+  font-family: kalpurush;
+  src: url('./assets/fonts/kalpurush.ttf');
+}
+
+
+.font-kalpurush {
+  font-family: 'kalpurush';
+}
+
+@font-face {
+  font-family: ABeeZee;
+  src: url('./assets/fonts/ABeeZee-Regular.ttf');
+}
+
+.font-abeezee {
+  font-family: 'ABeeZee';
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p.motto {
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+}
+
+.hero p.brief {
+  font-size: 18px;
+  text-align: left;
+}
+
+.hero-with-bg {
+  min-height: 600px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.62), 
+    rgba(0, 0, 0, 0.62)
+  ),
+  url('./assets/images/Rajshahi_College_Campus_01\ 1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-outline {
+  background-color: rgba(0, 0, 0, 0.199);
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  min-width: 270px;
+  border: 3px solid #fff;
+  font-size: 20px;
+  transition: all 200ms ease;
+}
+
+.btn-outline:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-filled {
+  background-color: #ffffff;
+  padding: 10px;
+  color: rgb(20, 20, 20);
+  border-radius: 5px;
+  min-width: 270px;
+  font-size: 20px;
+  border: 3px solid #fff
+}
+
+.briefs {
+  padding: 5rem 4rem;
+}
+
+.briefs_1 {
+  position: relative;
+}
+
+.briefs_2 {
+  height: max-content;
+  font-size: 18px;
+  background: #F5F5F5D1;
+  position: absolute;
+  top: -140px;
+  bottom: -100px;
+  width: 95%;
+  padding: 30px 40px 0px 40px;
+  border-radius: 19px;
+}
+
+.btn-outline-2 {
+  background-color: transparent;
+  padding: 6px;
+  color: #000000;
+  border-radius: 5px;
+  min-width: 200px;
+  border: 3px solid #000000;
+  transition: all 200ms ease;
+  font-size: 18px;
+}
+
+.btn-outline-2:hover {
+  color: #ffffff;
+  background-color: #127FBE;
+  border: 3px solid #127FBE;
+}
+
+.btn-filled-2 {
+  background-color: #127FBE;
+  padding: 6px;
+  color: #ffffff;
+  border-radius: 5px;
+  min-width: 200px;
+  border: 3px solid #127FBE;
+  font-size: 18px;
+}
+
+.underline {
+  position: absolute;
+  height: 1px;
+  bottom: 0px;
+  background-color: #127FBE;
+  width: 50%;
+}
+
+.imagebox {
+  height: 125px;
+  width: 120px;
+  padding: 5px;
+  border: 1px solid rgba(51, 51, 51, 0.194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-head {
+  background-color: #ECF6F4;
+  padding: 15px 70px;
+  font-size: 30px;
+  font-family: 'ABeeZee';
+  color: #127FBE;
+}
+
+.thumbnail {
+  object-fit: fill;
+  width: 100%;
+}
+
+.fs-regular {
+  font-size: 1.2rem;
+}
+
+.footer-bg-1 {
+  background-color: #434343;
+}
+
+.footer-bg-2 {
+  background-color: #D9D9D9;
+}
+
+#footer a img {
+  width: 25px;
+}
+
+.extrafit {
+  margin: -2px 0px 0px -2px;
+}
+
+.dropdown-parent {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(51, 51, 51, 0.146);
+  width: 300px;
+  border-radius: 3px;
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: all 100ms ease;
+  pointer-events: none;
+  font-family: 'kalpurush';
+}
+
+.dropdown-parent:hover .dropdown {
+  transform: translateX(0px);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.dropdown div {
+  padding: 4px 10px 10px 20px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.096);
+  cursor: pointer;
+}
